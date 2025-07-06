@@ -1,6 +1,7 @@
 import User from "../models/User.js"
 
 //upload user CartData: /api/cart/update
+
 export const updateCart = async (req, res) => {
   try {
     const { cartItems } = req.body;
